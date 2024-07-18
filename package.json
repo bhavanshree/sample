@@ -1,6 +1,5 @@
 {
   "name": "sample",
-  "homepage": "https://bk10d.github.io/sample/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
