@@ -23,7 +23,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy to Nginx
+      - name: Deploy
         run: |
-          sudo rm -rf /var/www/your_app_directory/build
-          sudo cp -r build /var/www/your_app_directory/
+          sudo mkdir -p /var/www/my-react-app
+          sudo cp -r build/* /var/www/my-react-app/
